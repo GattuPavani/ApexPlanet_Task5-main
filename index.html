@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>🚀 Pavani's Portfolio</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I'm a passionate Full Stack Web Developer who thrives on crafting dynamic, user-friendly, and visually engaging web applications. I love turning ideas into interactive digital experiences that are both fun and functional!</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="card-grid">
+        <div class="card">
+          <img loading="lazy" src="download.jpg" alt="Project 1" />
+          <h3>Portfolio Website</h3>
+          <p>Fully responsive site with interactive UI and animations.</p>
+        </div>
+        <div class="card">
+          <img loading="lazy" src="download2.jpg" alt="Project 2" />
+          <h3>To-Do App</h3>
+          <p>JavaScript-powered to-do app using localStorage for persistence.</p>
+        </div>
+        <div class="card">
+          <img loading="lazy" src="download1.jpg" alt="Project 3" />
+          <h3>Blog</h3>
+          <p>Personal blog layout with smooth scroll and responsive design.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form id="contactForm">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Email Address" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <p id="formStatus"></p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 Your Name | Built with 💖</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
